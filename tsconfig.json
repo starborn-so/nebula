@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@helpers/*": ["helpers/*"]
+    }
+  },
+  "include": ["*.ts", "*.json", "nebula/nebula.ts"],
+  "exclude": ["node_modules"]
+}
